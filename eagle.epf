@@ -265,17 +265,15 @@ UsedLibraryUrn="urn:adsk.eagle:library:196"
 UsedLibraryUrn="urn:adsk.eagle:library:197"
 UsedLibraryUrn="urn:adsk.eagle:library:198"
 UsedLibraryUrn="urn:adsk.eagle:library:199"
-UsedLibrary="C:/Users/radek/OneDrive/Documents/EAGLE/libraries/L7805ABV.lbr"
-UsedLibrary="C:/Users/radek/OneDrive/Documents/EAGLE/libraries/MCP2562-E_SN.lbr"
-UsedLibrary="C:/Users/radek/OneDrive/Documents/EAGLE/libraries/MCP6562-E_MS.lbr"
-UsedLibrary="C:/Users/radek/OneDrive/Documents/EAGLE/libraries/MCP6562-E_SN.lbr"
-UsedLibrary="C:/Users/radek/OneDrive/Documents/EAGLE/libraries/MIC4452YN.lbr"
-UsedLibrary="C:/Users/radek/OneDrive/Documents/EAGLE/libraries/SOIC127P599X173-8N.lbr"
+UsedLibrary="C:/Users/Ola/Documents/EAGLE/libraries/adafruit.lbr"
+UsedLibrary="C:/Users/Ola/Documents/EAGLE/libraries/6_3x11.lbr"
+UsedLibrary="C:/Users/Ola/Documents/EAGLE/libraries/10u.lbr"
+UsedLibrary="C:/Users/Ola/Documents/EAGLE/libraries/100n.lbr"
 
 [Win_1]
 Type="Control Panel"
 Number=0
 
 [Desktop]
-Screen="1920 1080"
+Screen="1080 720"
 Window="Win_1"
