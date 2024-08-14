@@ -4,4 +4,4 @@ The goal of the project is to design an electronic circuit schematic in the EAGL
 
 ### Acknowledgements
 
-Special thanks to the creator of the circuit, Electroboom. You can find the circuit on his website at [[https://www.electroboom.com/?p=575|https://www.electroboom.com/?p=575]].
+Special thanks to the creator of the circuit, Electroboom. You can find the circuit on his website at https://www.electroboom.com/?p=575.
