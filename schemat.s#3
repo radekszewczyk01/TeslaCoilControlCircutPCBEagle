@@ -15382,31 +15382,12 @@ R2 3 2 {val-val*var/100}
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
-<symbol name="VCC" urn="urn:adsk.eagle:symbol:26928/1" library_version="1">
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="VCC" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" urn="urn:adsk.eagle:component:26954/1" prefix="GND" library_version="1">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="GND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="VCC" urn="urn:adsk.eagle:component:26957/1" prefix="P+" library_version="1">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="VCC" symbol="VCC" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -16980,13 +16961,10 @@ Source: http://cache.national.com/ds/LM/LM321.pdf</description>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="12V"/>
 <part name="V_IN_12V" library="con-faston" library_urn="urn:adsk.eagle:library:144" deviceset="PIN1-2" device="" package3d_urn="urn:adsk.eagle:package:6764/1" value="12V"/>
 <part name="GND" library="con-faston" library_urn="urn:adsk.eagle:library:144" deviceset="PIN1-2" device="" package3d_urn="urn:adsk.eagle:package:6764/1" value="GND"/>
-<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="12V"/>
 <part name="L1" library="inductors" library_urn="urn:adsk.eagle:library:243" deviceset="RKE4" device="" package3d_urn="urn:adsk.eagle:package:15086/1" value="10uH"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="12V_DRV"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="1k"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10k"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10k"/>
@@ -17074,9 +17052,6 @@ Source: http://cache.national.com/ds/LM/LM321.pdf</description>
 <instance part="GND5" gate="1" x="101.6" y="134.62" smashed="yes">
 <attribute name="VALUE" x="99.06" y="132.08" size="1.778" layer="96"/>
 </instance>
-<instance part="P+1" gate="VCC" x="35.56" y="162.56" smashed="yes">
-<attribute name="VALUE" x="35.56" y="165.1" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="V_IN_12V" gate="G$1" x="30.48" y="149.86" smashed="yes" rot="R180">
 <attribute name="NAME" x="26.924" y="151.13" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="33.02" y="152.4" size="1.778" layer="96" rot="R180"/>
@@ -17085,18 +17060,12 @@ Source: http://cache.national.com/ds/LM/LM321.pdf</description>
 <attribute name="NAME" x="26.67" y="145.796" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="33.02" y="147.32" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+3" gate="VCC" x="129.54" y="162.56" smashed="yes">
-<attribute name="VALUE" x="129.54" y="165.1" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="L1" gate="1" x="139.7" y="154.94" smashed="yes">
 <attribute name="NAME" x="135.89" y="157.226" size="1.778" layer="95"/>
 <attribute name="VALUE" x="135.763" y="151.892" size="1.778" layer="96"/>
 </instance>
 <instance part="GND6" gate="1" x="149.86" y="134.62" smashed="yes">
 <attribute name="VALUE" x="147.32" y="132.08" size="1.778" layer="96"/>
-</instance>
-<instance part="P+4" gate="VCC" x="170.18" y="162.56" smashed="yes">
-<attribute name="VALUE" x="170.18" y="165.1" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R1" gate="G$1" x="40.64" y="66.04" smashed="yes">
 <attribute name="NAME" x="36.83" y="67.5386" size="1.778" layer="95"/>
@@ -17318,8 +17287,8 @@ Source: http://cache.national.com/ds/LM/LM321.pdf</description>
 <attribute name="NAME" x="99.06" y="19.685" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="99.06" y="27.94" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND26" gate="1" x="101.6" y="12.7" smashed="yes">
-<attribute name="VALUE" x="99.06" y="10.16" size="1.778" layer="96"/>
+<instance part="GND26" gate="1" x="106.68" y="30.48" smashed="yes">
+<attribute name="VALUE" x="104.14" y="27.94" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -17462,29 +17431,27 @@ Source: http://cache.national.com/ds/LM/LM321.pdf</description>
 <label x="215.9" y="88.9" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
+<pinref part="IC2" gate="G$1" pin="V-"/>
+<wire x1="101.6" y1="30.48" x2="101.6" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="GND26" gate="1" pin="GND"/>
-<pinref part="IC2" gate="G$1" pin="V+"/>
+<wire x1="101.6" y1="33.02" x2="106.68" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="12V" class="0">
 <segment>
 <wire x1="50.8" y1="149.86" x2="35.56" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="149.86" x2="35.56" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="147.32" x2="50.8" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="P+1" gate="VCC" pin="VCC"/>
-<junction x="35.56" y="149.86"/>
 <pinref part="V_IN_12V" gate="G$1" pin="1"/>
 <pinref part="U1" gate="G$1" pin="IN"/>
 <wire x1="55.88" y1="157.48" x2="50.8" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="157.48" x2="50.8" y2="149.86" width="0.1524" layer="91"/>
 <junction x="50.8" y="149.86"/>
 <pinref part="C1" gate="A" pin="1"/>
+<label x="35.56" y="149.86" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <pinref part="L1" gate="1" pin="1"/>
 <wire x1="132.08" y1="154.94" x2="129.54" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="P+3" gate="VCC" pin="VCC"/>
-<wire x1="129.54" y1="154.94" x2="129.54" y2="160.02" width="0.1524" layer="91"/>
 <label x="129.54" y="154.94" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
@@ -17676,18 +17643,17 @@ Source: http://cache.national.com/ds/LM/LM321.pdf</description>
 <wire x1="147.32" y1="154.94" x2="149.86" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="154.94" x2="160.02" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="154.94" x2="170.18" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="154.94" x2="170.18" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="152.4" x2="170.18" y2="154.94" width="0.1524" layer="91"/>
-<junction x="170.18" y="154.94"/>
 <wire x1="160.02" y1="152.4" x2="160.02" y2="154.94" width="0.1524" layer="91"/>
 <junction x="160.02" y="154.94"/>
 <wire x1="149.86" y1="152.4" x2="149.86" y2="154.94" width="0.1524" layer="91"/>
 <junction x="149.86" y="154.94"/>
-<pinref part="P+4" gate="VCC" pin="VCC"/>
 <pinref part="C4" gate="A" pin="1"/>
 <pinref part="C5" gate="A" pin="1"/>
 <pinref part="C6" gate="A" pin="1"/>
 <label x="170.18" y="157.48" size="1.778" layer="95" xref="yes"/>
+<wire x1="170.18" y1="154.94" x2="170.18" y2="157.48" width="0.1524" layer="91"/>
+<junction x="170.18" y="154.94"/>
 </segment>
 <segment>
 <wire x1="172.72" y1="58.42" x2="172.72" y2="68.58" width="0.1524" layer="91"/>
@@ -17789,10 +17755,9 @@ Source: http://cache.national.com/ds/LM/LM321.pdf</description>
 <label x="121.92" y="27.94" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="V-"/>
-<wire x1="101.6" y1="30.48" x2="101.6" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="33.02" x2="104.14" y2="33.02" width="0.1524" layer="91"/>
-<label x="104.14" y="33.02" size="1.778" layer="95" xref="yes"/>
+<pinref part="IC2" gate="G$1" pin="V+"/>
+<wire x1="101.6" y1="15.24" x2="101.6" y2="12.7" width="0.1524" layer="91"/>
+<label x="101.6" y="12.7" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
